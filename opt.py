@@ -1,5 +1,8 @@
 from tornado.options import define, options
 
 
-define('mattermost_url', default="https://your.mattermost.url/hooks/id")
+define(
+    'mattermost_url',
+    default="https://chat.easytaxi.net.br/hooks/g8w3zsjywtdnm87zpm58ensgoe"
+)
 define('port', default=8000)
